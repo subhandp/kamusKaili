@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="5sp"
+    android:paddingTop="5sp"
+    >
+
+    <TextView
+        android:id="@+id/indonesia"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:background="#DCDCDC"
+        />
+
+    <TextView
+        android:id="@+id/kaili"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/indonesia"
+        android:layout_marginLeft="50dp"
+        android:padding="5dp"
+        android:background="#C0C0C0"
+        />
+
+</RelativeLayout>

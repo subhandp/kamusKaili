@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uya.drawyerlayout.DaftarKata">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/myTextIndonesia"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Indonesia"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/myTextKaili"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/myTextIndonesia"
+            android:text="Kaili Ledo"
+            android:textSize="20sp" />
+
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/myTextIndonesia" />
+
+
+        <!--<Button-->
+            <!--android:id="@+id/urutkanData"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Urut Data"-->
+            <!--android:layout_below="@+id/list1" />-->
+
+    </RelativeLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:paddingRight="20dp"-->
+        <!--android:paddingTop="20dp"-->
+        <!--&gt;-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/input_layout_name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/input_name"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:singleLine="true"-->
+                <!--android:hint="@string/hint_name" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/input_layout_email"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/input_email"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textEmailAddress"-->
+                <!--android:hint="@string/hint_email" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/input_layout_password"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/input_password"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:hint="@string/hint_password" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <!--<Button android:id="@+id/btn_signup"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/btn_sign_up"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:textColor="@android:color/white"/>-->
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>

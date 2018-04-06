@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/db" android:title="Indonesia - Kaili Ledo" android:icon="@drawable/ic_dashboard_black_24px"/>
+    <item android:id="@+id/tambahKata" android:title="Tambah Kata" android:icon="@drawable/ic_playlist_add_black_24px"/>
+    <item android:id="@+id/daftarKata" android:title="Daftar Kata" android:icon="@drawable/ic_list_black_24px"/>
+    <item android:id="@+id/keluar" android:title="Keluar" android:icon="@drawable/ic_exit_to_app_black_24px"/>
+</menu>
